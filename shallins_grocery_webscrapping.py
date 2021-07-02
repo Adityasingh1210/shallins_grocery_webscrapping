@@ -50,7 +50,7 @@ browser = webdriver.Chrome(driver_path)
 from bs4 import BeautifulSoup
 import requests
 
-
+#changes
 
 soup = BeautifulSoup(browser.page_source, 'html.parser')
 
