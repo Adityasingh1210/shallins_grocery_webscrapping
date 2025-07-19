@@ -49,17 +49,8 @@ browser = webdriver.Chrome(driver_path)
 
 from bs4 import BeautifulSoup
 import requests
-
-#changes
-
-# Feature added by joy
-
 soup = BeautifulSoup(browser.page_source, 'html.parser')
-
-
-
 import pandas as pd
-
 # df.to_csv(r'C:/Users/lenovo/Desktop/All_fresh_fruit_vegetable.csv', index = False)
 
 # def get_all_Fresh_Fruits:
